@@ -17,4 +17,6 @@ Bu bootcamp, back-end geliştirme üzerine odaklanmakta olup C#, .Net Core, Rest
     - **First Project: Hello World**
     Bootcamp'in ilk haftasında, basit bir "Hello World" uygulaması geliştirerek C# diline giriş yaptım.
     - **Variable Demo**
-    İkinci proje olarak basit bir kullanıcı register uygulaması yaptım ve kullanıcıdan alınan verileri diğer veri türlerine cast işlemi gerçekleştirdim.    
+    İkinci proje olarak basit bir kullanıcı register uygulaması yaptım ve kullanıcıdan alınan verileri diğer veri türlerine cast işlemi gerçekleştirdim.
+    - **Conditional Demo**
+    İf else yapısını denemek için basit bir uygulama.
