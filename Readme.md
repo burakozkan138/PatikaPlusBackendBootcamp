@@ -20,3 +20,5 @@ Bu bootcamp, back-end geliştirme üzerine odaklanmakta olup C#, .Net Core, Rest
     İkinci proje olarak basit bir kullanıcı register uygulaması yaptım ve kullanıcıdan alınan verileri diğer veri türlerine cast işlemi gerçekleştirdim.
     - **Conditional Demo**
     İf else yapısını denemek için basit bir uygulama.
+    -- **Manav Demo**
+    if else ve switch case yapısı arasındaki farkları net olarak görmemizi sağlayan bir uygulama geliştirdim.
