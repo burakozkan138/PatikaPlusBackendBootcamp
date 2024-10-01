@@ -25,7 +25,7 @@ totalPrice = firstProductPrice + secondProductPrice;
 
 Console.WriteLine($"\n{tc} Kimlik numaralı, {name} {surname} adlı kişi için kayıt alınmıştır.");
 Console.WriteLine($"{phone} Telefon numarasına bildirim mesajı gönderilmiştir.");
-Console.WriteLine($"{totalPrice} TL tutarındaki alışverişiniz için teşekkür ederiz kazanılan 10% puan miktarı -> {(totalPrice * 0.1) + (age * 0.1)} TL");
+Console.WriteLine($"{totalPrice} TL tutarındaki alışverişiniz için teşekkür ederiz kazanılan 10% puan miktarı -> {(int)(totalPrice * 0.1) + (int)(age * 0.1)} TL");
 
-Console.ReadLine();
 Console.WriteLine("\nProgram Sonlandı. Çıkmak için bir tuşa basınız.");
+Console.ReadLine();
