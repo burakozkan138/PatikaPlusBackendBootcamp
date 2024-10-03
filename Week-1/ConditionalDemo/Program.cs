@@ -13,3 +13,12 @@ else
 {
   Console.WriteLine("Girilen sayı 10'dan büyüktür.");
 }
+
+if (number % 2 == 0)
+{
+  Console.WriteLine("Girilen sayı çifttir.");
+}
+else
+{
+  Console.WriteLine("Girilen sayı tektir.");
+}
