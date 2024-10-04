@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForExamples", "ForExamples\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhileExamples", "WhileExamples\WhileExamples.csproj", "{CC6166D6-74A5-4001-826B-0213FFCCEC40}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhileVsDoWhileExample", "WhileVsDoWhileExample\WhileVsDoWhileExample.csproj", "{CA46B11C-5C8F-4894-94FF-EB2422564862}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{CC6166D6-74A5-4001-826B-0213FFCCEC40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC6166D6-74A5-4001-826B-0213FFCCEC40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC6166D6-74A5-4001-826B-0213FFCCEC40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA46B11C-5C8F-4894-94FF-EB2422564862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA46B11C-5C8F-4894-94FF-EB2422564862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA46B11C-5C8F-4894-94FF-EB2422564862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA46B11C-5C8F-4894-94FF-EB2422564862}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

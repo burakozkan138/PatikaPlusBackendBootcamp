@@ -29,3 +29,6 @@ Bu bootcamp, back-end geliştirme üzerine odaklanmakta olup C#, .Net Core, Rest
     Döngüler konusunu pekiştirmek amacıyla çeşitli `for` döngüsü örnekleri geliştirdim. Bu örnekler arasında sayıların toplamını hesaplama, belirli bir aralıktaki çift sayıları bulma ve bir dizideki elemanları sıralama gibi uygulamalar bulunmaktadır.
     - **While Examples**
     `while` döngüsü kullanarak çeşitli örnekler geliştirdim. Bu örnekler arasında kullanıcıdan alınan sayıların toplamını hesaplama, belirli bir aralıktaki tek sayıları bulma ve bir dizideki elemanları tersten yazdırma gibi uygulamalar bulunmaktadır.
+    - **While vs Do-While Example**
+        `while` ve `do-while` döngülerinin farklarını anlamak için bir örnek geliştirdim. Bu örnekte, kullanıcıdan alınan bir sayının pozitif olup olmadığını kontrol eden iki farklı döngü yapısı kullanılmıştır. 
+        `while` döngüsü ile kullanıcıdan pozitif bir sayı alana kadar tekrar eden bir yapı oluşturulmuş, `do-while` döngüsü ile ise en az bir kez çalışarak kullanıcıdan sayı almayı garanti eden bir yapı geliştirilmiştir.
