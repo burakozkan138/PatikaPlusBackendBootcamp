@@ -24,6 +24,9 @@ do
   counter++;
 } while (counter < limit);
 
+Console.WriteLine("\nÇıkmak için herhangi bir tuşa basınız...");
+Console.ReadKey();
+
 // While ve Do-While arasındaki farklar:
 // While döngüsünde koşul sağlandığı sürece döngü çalışır. Do-While döngüsünde ise koşul sağlanmasa bile döngü en az bir kez çalışır.
 // Bu örnekte limit değeri -5 girildiğinde, while döngüsü hiç çalışmazken, do-while döngüsü bir kez çalışır.
