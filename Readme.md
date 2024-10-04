@@ -24,3 +24,8 @@ Bu bootcamp, back-end geliştirme üzerine odaklanmakta olup C#, .Net Core, Rest
     if else ve switch case yapısı arasındaki farkları net olarak görmemizi sağlayan bir uygulama geliştirdim.
     - **MillionerDemo**
     iki şıklı sorular sorarak kullanıcıdan cevapları aldım ve yeterli doğru sayısına ulaşıp ulaşamadığı bir sistem oluşturdum.
+- **Week 2**
+    - **For Examples**
+    Döngüler konusunu pekiştirmek amacıyla çeşitli `for` döngüsü örnekleri geliştirdim. Bu örnekler arasında sayıların toplamını hesaplama, belirli bir aralıktaki çift sayıları bulma ve bir dizideki elemanları sıralama gibi uygulamalar bulunmaktadır.
+    - **While Examples**
+    `while` döngüsü kullanarak çeşitli örnekler geliştirdim. Bu örnekler arasında kullanıcıdan alınan sayıların toplamını hesaplama, belirli bir aralıktaki tek sayıları bulma ve bir dizideki elemanları tersten yazdırma gibi uygulamalar bulunmaktadır.
