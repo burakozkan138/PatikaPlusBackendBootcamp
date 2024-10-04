@@ -32,3 +32,5 @@ Bu bootcamp, back-end geliştirme üzerine odaklanmakta olup C#, .Net Core, Rest
     - **While vs Do-While Example**
         `while` ve `do-while` döngülerinin farklarını anlamak için bir örnek geliştirdim. Bu örnekte, kullanıcıdan alınan bir sayının pozitif olup olmadığını kontrol eden iki farklı döngü yapısı kullanılmıştır. 
         `while` döngüsü ile kullanıcıdan pozitif bir sayı alana kadar tekrar eden bir yapı oluşturulmuş, `do-while` döngüsü ile ise en az bir kez çalışarak kullanıcıdan sayı almayı garanti eden bir yapı geliştirilmiştir.
+    - **Travel Buddy**
+        Bu projede, kullanıcıların seyahat planlarını organize edebilecekleri bir uygulama geliştirdim. Kullanıcılar, seyahat tarihlerini, destinasyonlarını ve yapılacak aktiviteleri ekleyebilirler.
