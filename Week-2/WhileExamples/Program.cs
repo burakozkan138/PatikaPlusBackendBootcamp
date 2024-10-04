@@ -36,33 +36,33 @@ while (k <= 20)
 }
 Console.WriteLine("----------------------------------------------------------");
 
-int total = 0;
+int sum = 0;
 int l = 50; // l değişkeni 50'den başlayacak ve 150'ye kadar artacak.
 while (l <= 150)
 {
-  total += l;
+  sum += l;
   l++;
 }
-Console.WriteLine("50 ile 150 arasındaki sayıların toplamı: " + total);
+Console.WriteLine("50 ile 150 arasındaki sayıların toplamı: " + sum);
 Console.WriteLine("----------------------------------------------------------");
 
-int oddTotal = 0;
-int evenTotal = 0;
+int sumOdd = 0;
+int sumEven = 0;
 int m = 1; // m değişkeni 1'den başlayacak ve 120'ye kadar artacak.
 while (m <= 120)
 {
   if (m % 2 == 0)
   {
-    evenTotal += m;
+    sumEven += m;
   }
   else
   {
-    oddTotal += m;
+    sumOdd += m;
   }
   m++;
 }
-Console.WriteLine("1 ile 120 arasındaki çift sayıların toplamı: " + evenTotal);
-Console.WriteLine("1 ile 120 arasındaki tek sayıların toplamı: " + oddTotal);
+Console.WriteLine("1 ile 120 arasındaki tek sayıların toplamı: " + sumOdd);
+Console.WriteLine("1 ile 120 arasındaki çift sayıların toplamı: " + sumEven);
 
 Console.Write("\nÇıkmak için herhangi bir tuşa basınız...");
 Console.ReadKey(); // Konsol ekranının kapanmaması için kullanılır.

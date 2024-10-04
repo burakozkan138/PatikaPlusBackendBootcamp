@@ -32,32 +32,32 @@ for (int i = 1; i <= 20; i++)
 
 Console.WriteLine("************************************************");
 
-int totalCount = 0; // toplamı tutacak değişken
+int sum = 0; // toplamı tutacak değişken
 for (int i = 50; i <= 150; i++)
 {
-  totalCount += i;
+  sum += i;
 }
 
-Console.WriteLine($"50 ile 150 arasındaki sayıların toplamı: {totalCount}");
+Console.WriteLine($"50 ile 150 arasındaki sayıların toplamı: {sum}");
 Console.WriteLine("************************************************");
 
-int totalOdd = 0; // tek sayıların toplamını tutacak değişken
-int totalEven = 0; // çift sayıların toplamını tutacak değişken
+int sumOdd = 0; // tek sayıların toplamını tutacak değişken
+int sumEven = 0; // çift sayıların toplamını tutacak değişken
 
 for (int i = 1; i <= 120; i++)
 {
   if (i % 2 == 0)
   {
-    totalOdd += i;
+    sumOdd += i;
   }
   else
   {
-    totalEven += i;
+    sumEven += i;
   }
 }
 
-Console.WriteLine($"Tek sayıların toplamı: {totalOdd}");
-Console.WriteLine($"Çift sayıların toplamı: {totalEven}");
+Console.WriteLine($"Tek sayıların toplamı: {sumOdd}");
+Console.WriteLine($"Çift sayıların toplamı: {sumEven}");
 
 Console.Write("\nÇıkmak için bir tuşa basınız...");
 Console.ReadLine();
