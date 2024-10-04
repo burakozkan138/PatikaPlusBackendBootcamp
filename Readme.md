@@ -34,3 +34,5 @@ Bu bootcamp, back-end geliştirme üzerine odaklanmakta olup C#, .Net Core, Rest
         `while` döngüsü ile kullanıcıdan pozitif bir sayı alana kadar tekrar eden bir yapı oluşturulmuş, `do-while` döngüsü ile ise en az bir kez çalışarak kullanıcıdan sayı almayı garanti eden bir yapı geliştirilmiştir.
     - **Travel Buddy**
         Bu projede, kullanıcıların seyahat planlarını organize edebilecekleri bir uygulama geliştirdim. Kullanıcılar, seyahat tarihlerini, destinasyonlarını ve yapılacak aktiviteleri ekleyebilirler.
+    - **Method Examples**
+            Basit metotlar oluşturarak, metotların nasıl tanımlandığını ve çağrıldığını öğrendim. Örneğin, iki sayının toplamını hesaplayan bir metot geliştirdim.
