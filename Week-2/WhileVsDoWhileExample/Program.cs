@@ -10,7 +10,7 @@ Console.Write("Lütfen bir sayı giriniz: ");
 int limit = Convert.ToInt32(Console.ReadLine());
 int counter = 0;
 
-while (counter < limit)
+while (counter <= limit)
 {
   Console.WriteLine("Ben bir Patika'lıyım");
   counter++;
@@ -22,7 +22,7 @@ do
 {
   Console.WriteLine("Ben bir Patika'lıyım");
   counter++;
-} while (counter < limit);
+} while (counter <= limit);
 
 Console.WriteLine("\nÇıkmak için herhangi bir tuşa basınız...");
 Console.ReadKey();
