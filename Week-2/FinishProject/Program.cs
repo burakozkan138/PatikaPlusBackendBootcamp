@@ -107,16 +107,22 @@ Console.WriteLine("-------------------------------------------------------------
 //12 - Kullanıcıdan sınırsız sayıda sayı alıp , bunlardan en büyüğünü ekrana yazdıran ve aynı zamanda geriye dönen bir metot yazınız.
 int GetMaxNumber()
 {
-  int maxNumber = 0;
-  int userNumber;
+  int maxNumber = int.MinValue;
   while (true)
   {
-    Console.Write("Enter a number if u want exit give 0: ");
-    userNumber = Convert.ToInt32(Console.ReadLine()) is int number ? number : 0;
-    if (userNumber == 0)
+    Console.Write("Enter a number if u want exit give q: ");
+    string? userValue = Console.ReadLine();
+    if (userValue == "q")
     {
       break;
     }
+    bool validInt = int.TryParse(userValue, out int userNumber);
+    if (!validInt)
+    {
+      Console.WriteLine("Please enter a valid number");
+      continue;
+    }
+
     maxNumber = Math.Max(maxNumber, userNumber);
   }
 
