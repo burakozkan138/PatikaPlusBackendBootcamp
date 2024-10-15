@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstClass", "FirstClass\Fi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorExample", "ConstructorExample\ConstructorExample.csproj", "{C6DDA8C2-8966-41E0-BFD8-0609006465F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryDemo", "LibraryDemo\LibraryDemo.csproj", "{C90EACDF-CB06-401D-8468-5D95670D84C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{C6DDA8C2-8966-41E0-BFD8-0609006465F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6DDA8C2-8966-41E0-BFD8-0609006465F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6DDA8C2-8966-41E0-BFD8-0609006465F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C90EACDF-CB06-401D-8468-5D95670D84C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C90EACDF-CB06-401D-8468-5D95670D84C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C90EACDF-CB06-401D-8468-5D95670D84C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C90EACDF-CB06-401D-8468-5D95670D84C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
