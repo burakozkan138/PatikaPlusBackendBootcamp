@@ -5,13 +5,13 @@ namespace LibraryDemo;
 
 public class Library
 {
-  public string Name { get; set; }
-  public string Address { get; set; }
-  public string City { get; set; }
-  public string Country { get; set; }
-  public List<Book> Books { get; set; }
+  public static string Name { get; set; }
+  public static string Address { get; set; }
+  public static string City { get; set; }
+  public static string Country { get; set; }
+  public static List<Book> Books { get; set; }
 
-  public Library()
+  static Library()
   {
     Name = "Patika Kitaplığı";
     Address = "No: 1, Patika Sk.";
@@ -32,18 +32,18 @@ public class Library
     };
   }
 
-  public void PrintLibraryInfo()
+  public static void PrintLibraryInfo()
   {
     PrintWelcomeMessage();
     Console.WriteLine($"Name: {Name}\nAddress: {Address}\nCity: {City}\nCountry: {Country}");
   }
 
-  public void PrintWelcomeMessage()
+  public static void PrintWelcomeMessage()
   {
     Console.WriteLine($"*** Welcome to {Name} Library! ***");
   }
 
-  public void PrintMenu()
+  public static void PrintMenu()
   {
     Console.WriteLine("Please select an option to continue:");
     Console.WriteLine("1- List Books");
@@ -57,7 +57,7 @@ public class Library
     PerformOperation(choice);
   }
 
-  public void PerformOperation(string? choice)
+  public static void PerformOperation(string? choice)
   {
     Console.Clear();
     switch (choice)
@@ -92,7 +92,7 @@ public class Library
     Console.Clear();
   }
 
-  public void PrintBooks()
+  public static void PrintBooks()
   {
     Console.WriteLine("Books in the Library:");
     foreach (var book in Books)
@@ -101,7 +101,7 @@ public class Library
     }
   }
 
-  public void PrintBookDetails(string? bookName)
+  public static void PrintBookDetails(string? bookName)
   {
     var book = Books.FirstOrDefault(b => b.Name.ToLower() == bookName?.ToLower());
     if (book != null)
@@ -114,7 +114,7 @@ public class Library
     }
   }
 
-  public void CreateBook()
+  public static void CreateBook()
   {
     Console.Write("Enter the name of the book: ");
     string? name = Console.ReadLine();
@@ -129,13 +129,13 @@ public class Library
     AddBook(new Book(name, authorName, authorSurname, pageCount, publisher));
   }
 
-  public void AddBook(Book book)
+  public static void AddBook(Book book)
   {
     Books.Add(book);
     Console.WriteLine($"{book.Name} is successfully added to the library.");
   }
 
-  public void RemoveBook(string? bookName)
+  public static void RemoveBook(string? bookName)
   {
     var book = Books.FirstOrDefault(b => b.Name.ToLower() == bookName?.ToLower());
     if (book != null)
