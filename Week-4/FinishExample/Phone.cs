@@ -10,7 +10,7 @@ public class Phone : BaseMachine
 
   public override string GetProductName()
   {
-    return Name;
+    return $"Your Phone Name: {Name}";
   }
 
   public override void PrintInfo()

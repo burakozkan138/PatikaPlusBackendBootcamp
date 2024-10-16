@@ -50,6 +50,7 @@ void CreateComputer()
 
   Computer computer = new Computer(serialNumber, name, description, operatingSystem, usbCount);
   computer.PrintInfo();
+  computer.GetProductName();
 }
 
 void CreatePhone()
@@ -65,4 +66,5 @@ void CreatePhone()
 
   Phone phone = new Phone(serialNumber, name, description, operatingSystem);
   phone.PrintInfo();
+  phone.GetProductName();
 }

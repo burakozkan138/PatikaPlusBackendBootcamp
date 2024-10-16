@@ -33,6 +33,6 @@ public class Computer : BaseMachine
 
   public override string GetProductName()
   {
-    return Name;
+    return $"Your Computer Name: {Name}";
   }
 }
