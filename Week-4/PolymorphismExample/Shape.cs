@@ -11,10 +11,7 @@ public class Shape
     Height = height;
   }
 
-  public virtual double Area() // virtual keyword allows the method to be overridden in derived classes
-  {
-    return Width * Height;
-  }
+  public abstract double Area(); // abstract keyword is used to make the method abstract
 }
 
 public class Triangle : Shape
@@ -40,5 +37,10 @@ public class Rectangle : Shape
 {
   public Rectangle(double width, double height) : base(width, height)
   {
+  }
+
+  public override double Area() // override keyword is used to override the base class method
+  {
+    return Width * Height;
   }
 }
