@@ -17,13 +17,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolymorphismExample", "Poly
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractionExample", "AbstractionExample\AbstractionExample.csproj", "{FA4E90C5-50E5-4A95-8D07-DA163B9ADBC6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinishExample", "FinishExample\FinishExample.csproj", "{9B504BB7-525A-4CC7-81CA-C6BF010C0642}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{2DE0A070-2C29-4F84-9DE1-98F881B8FD12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -54,5 +53,12 @@ Global
 		{FA4E90C5-50E5-4A95-8D07-DA163B9ADBC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA4E90C5-50E5-4A95-8D07-DA163B9ADBC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA4E90C5-50E5-4A95-8D07-DA163B9ADBC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B504BB7-525A-4CC7-81CA-C6BF010C0642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B504BB7-525A-4CC7-81CA-C6BF010C0642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B504BB7-525A-4CC7-81CA-C6BF010C0642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B504BB7-525A-4CC7-81CA-C6BF010C0642}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
