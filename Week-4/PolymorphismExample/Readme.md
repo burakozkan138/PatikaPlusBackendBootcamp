@@ -25,47 +25,55 @@ namespace Test
       Console.ReadKey();
     }
   }
-  public class Shape
+  
+  public abstract class Shape
+{
+  public double Width { get; set; }
+  public double Height { get; set; }
+
+  public Shape(double width, double height)
   {
-    public double Width { get; set; }
-    public double Height { get; set; }
-
-    public Shape(double width, double height)
-    {
-      Width = width;
-      Height = height;
-    }
-
-    public virtual double Area() // virtual keyword allows the method to be overridden in derived classes
-    {
-      return Width * Height;
-    }
+    Width = width;
+    Height = height;
   }
 
-  public class Triangle : Shape
-  {
-    public Triangle(double width, double height) : base(width, height) // base keyword is used to call the constructor of the base class
-    {
-    }
+  public abstract double Area(); // abstract keyword is used to make the method abstract
+}
 
-    public override double Area() // override keyword is used to override the base class method
-    {
-      return 0.5 * Width * Height;
-    }
+public class Triangle : Shape
+{
+  public Triangle(double width, double height) : base(width, height) // base keyword is used to call the constructor of the base class
+  {
   }
 
-  public class Square : Shape
+  public override double Area() // override keyword is used to override the base class method
   {
-    public Square(double width, double height) : base(width, height)
-    {
-    }
+    return 0.5 * Width * Height;
+  }
+}
+
+public class Square : Shape
+{
+  public Square(double width, double height) : base(width, height)
+  {
   }
 
-  public class Rectangle : Shape
+  public override double Area() // override keyword is used to override the base class method
   {
-    public Rectangle(double width, double height) : base(width, height)
-    {
-    }
+    return Width * Width;
   }
+}
+
+public class Rectangle : Shape
+{
+  public Rectangle(double width, double height) : base(width, height)
+  {
+  }
+
+  public override double Area() // override keyword is used to override the base class method
+  {
+    return Width * Height;
+  }
+}
 }
 ```

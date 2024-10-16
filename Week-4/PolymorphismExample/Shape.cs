@@ -1,6 +1,6 @@
 namespace PolymorphismExample;
 
-public class Shape
+public abstract class Shape
 {
   public double Width { get; set; }
   public double Height { get; set; }
@@ -30,6 +30,11 @@ public class Square : Shape
 {
   public Square(double width, double height) : base(width, height)
   {
+  }
+
+  public override double Area() // override keyword is used to override the base class method
+  {
+    return Width * Width;
   }
 }
 
