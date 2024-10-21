@@ -15,7 +15,7 @@ Console.Write("Enter a number to add to the array: ");
 
 int newNumber = Convert.ToInt32(Console.ReadLine());
 
-//Array.Resize(ref numbers, numbers.Length + 1); // Resizes the array to add a new element 
+Array.Resize(ref numbers, numbers.Length + 1); // Resizes the array to add a new element 
 
 numbers[numbers.Length - 1] = newNumber; // Adds the new element to the last index of the array
 
