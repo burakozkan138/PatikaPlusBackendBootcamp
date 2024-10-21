@@ -28,7 +28,7 @@ Console.WriteLine("The guests who will attend the gala night are as follows:");
 int i = 1;
 foreach (var guest in guests)
 {
-  Console.WriteLine($"{i}. {guest}");
+  Console.WriteLine($"{i}. - {guest}");
   i++;
 }
 
