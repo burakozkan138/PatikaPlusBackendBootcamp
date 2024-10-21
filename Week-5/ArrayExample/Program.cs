@@ -28,5 +28,5 @@ foreach (var number in numbers)
   Console.WriteLine($"Number: {number}");
 }
 
-Console.WriteLine("Press any key to exit...");
+Console.Write("Press any key to exit...");
 Console.ReadKey();

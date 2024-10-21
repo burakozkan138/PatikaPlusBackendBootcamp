@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayExample", "ArrayExampl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListExample", "ListExample\ListExample.csproj", "{AB793574-7C21-4E99-9E23-6FA4463CA3D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListExample2", "ListExample2\ListExample2.csproj", "{4B04D453-1745-4671-9F2C-8F84690A9ADB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{AB793574-7C21-4E99-9E23-6FA4463CA3D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB793574-7C21-4E99-9E23-6FA4463CA3D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB793574-7C21-4E99-9E23-6FA4463CA3D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B04D453-1745-4671-9F2C-8F84690A9ADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B04D453-1745-4671-9F2C-8F84690A9ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B04D453-1745-4671-9F2C-8F84690A9ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B04D453-1745-4671-9F2C-8F84690A9ADB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

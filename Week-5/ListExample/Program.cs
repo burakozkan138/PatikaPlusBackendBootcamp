@@ -32,5 +32,5 @@ foreach (var guest in guests) // Loop through the list of guests and display the
   i++;
 }
 
-Console.WriteLine("Press any key to exit...");
+Console.Write("Press any key to exit...");
 Console.ReadKey();
