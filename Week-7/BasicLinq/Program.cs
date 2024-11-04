@@ -1,5 +1,5 @@
 ﻿Console.Clear();
-List<int> numbers = new List<int> { 3, 4, 5, 6, 7, 2, 23, 545, 76, 34, 23, 12 };
+List<int> numbers = new List<int> { -1, -33, 3, 4, 5, 6, 7, 2, 23, 16, 19, 545, 76, 34, 23, 12 };
 
 Console.WriteLine("Even Numbers:");
 numbers.Where(x => x % 2 == 0).ToList().ForEach(x => Console.WriteLine(x)); // write even numbers
