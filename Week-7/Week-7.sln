@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patikaflix", "Patikaflix\Pa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqJoinExample", "LinqJoinExample\LinqJoinExample.csproj", "{CF80B979-A724-46F4-8576-089BF40CA9ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqGroupJoinExample", "LinqGroupJoinExample\LinqGroupJoinExample.csproj", "{C5925909-54C9-4D70-BD4B-E3FD09761B2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{CF80B979-A724-46F4-8576-089BF40CA9ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF80B979-A724-46F4-8576-089BF40CA9ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF80B979-A724-46F4-8576-089BF40CA9ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5925909-54C9-4D70-BD4B-E3FD09761B2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5925909-54C9-4D70-BD4B-E3FD09761B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5925909-54C9-4D70-BD4B-E3FD09761B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5925909-54C9-4D70-BD4B-E3FD09761B2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
