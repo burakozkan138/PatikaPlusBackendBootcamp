@@ -22,13 +22,13 @@ public class ArtistController : ControllerBase
     };
 
     [HttpGet]
-    public IActionResult Get()
+    public ActionResult<List<Artist>> Get()
     {
         return Ok(Artists);
     }
 
     [HttpGet("{id:int:min(1)}")]
-    public IActionResult Get([FromRoute] int id)
+    public ActionResult<Artist> Get([FromRoute] int id)
     {
         var artist = Artists.FirstOrDefault(a => a.Id == id);
         if (artist == null)
@@ -39,7 +39,7 @@ public class ArtistController : ControllerBase
     }
 
     [HttpPost]
-    public IActionResult Post([FromBody] Artist artist)
+    public ActionResult<Artist> Post([FromBody] Artist artist)
     {
         if (!ModelState.IsValid)
         {
@@ -53,7 +53,7 @@ public class ArtistController : ControllerBase
     }
 
     [HttpPut("{id:int:min(1)}")]
-    public IActionResult Put([FromRoute] int id, [FromBody] Artist artist)
+    public ActionResult<Artist> Put([FromRoute] int id, [FromBody] Artist artist)
     {
         if (!ModelState.IsValid)
         {
@@ -89,7 +89,7 @@ public class ArtistController : ControllerBase
 
     // GET /api/artist/search?q=melodi
     [HttpGet("search")]
-    public IActionResult SearchByName([FromQuery] string q)
+    public ActionResult<List<Artist>> SearchByName([FromQuery] string q)
     {
         if (string.IsNullOrWhiteSpace(q))
         {
@@ -101,7 +101,7 @@ public class ArtistController : ControllerBase
     }
 
     [HttpPatch("{id:int:min(1)}")]
-    public IActionResult ChangeName([FromRoute] int id, [FromBody] string name)
+    public ActionResult<Artist> ChangeName([FromRoute] int id, [FromBody] string name)
     {
         if (string.IsNullOrWhiteSpace(name))
         {
@@ -116,6 +116,6 @@ public class ArtistController : ControllerBase
 
         artist.FullName = name;
 
-        return AcceptedAtAction(nameof(Get), new { id = artist.Id });
+        return AcceptedAtAction(nameof(Get), new { id = artist.Id }, artist);
     }
 }
