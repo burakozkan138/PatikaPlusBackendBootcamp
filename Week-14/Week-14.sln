@@ -5,18 +5,24 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityExample", "IdentityExample\IdentityExample.csproj", "{E471847E-7FD8-44D4-BA9A-F3EFB6234FF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtExample", "JwtExample\JwtExample.csproj", "{0700E738-EC2D-4394-82E3-3966BFE33718}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E471847E-7FD8-44D4-BA9A-F3EFB6234FF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E471847E-7FD8-44D4-BA9A-F3EFB6234FF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E471847E-7FD8-44D4-BA9A-F3EFB6234FF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E471847E-7FD8-44D4-BA9A-F3EFB6234FF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0700E738-EC2D-4394-82E3-3966BFE33718}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0700E738-EC2D-4394-82E3-3966BFE33718}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0700E738-EC2D-4394-82E3-3966BFE33718}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0700E738-EC2D-4394-82E3-3966BFE33718}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
